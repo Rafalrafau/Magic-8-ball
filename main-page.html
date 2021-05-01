@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <title>Magic 8 ball</title>
+    <link rel="stylesheet" href="magicBall.css">
+</head>
+<body>
+
+    <div class="inputField">
+        <input id="input" class="input" placeholder="Ask a question"></input>
+    </div>
+
+    <div class="ballImg">
+        <img src="graphic/magicBall.png" alt="W3Schools.com" height="200"/>
+    </div>
+
+    <div class="text-white">
+        <div class="shakeBtn" >
+          <button class="btn btn-primary" id="1" onclick="testYourLuck()">Shake for the answer!</button>
+        </div>
+        <div class='quote'>
+        <h1 id='quote'> </h1>
+        </div>
+      </div>
+
+      <script src="magicBall.js"></script>
+</body>
+</html>
